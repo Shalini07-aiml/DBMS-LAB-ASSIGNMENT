@@ -1,0 +1,33 @@
+DEPARTMENTID  DEPARTMENTNAME                          OFFICELOCATION
+----------------------------------------------------------------------
+101           Civil Engineering                       Block A
+102           Mechanical Engineering                  Block B
+105           Computer Science and Engineering        Block C
+110           Electrical and Electronics Engineering  Block D
+118           3D Animation and Graphics               Block E
+119           Civil Engineering with Computer App     Block F
+157           Computer Science and Engineering (AI)   Block G
+
+
+FACULTYID  NAME                        DESIGNATION          EMAIL                     DEPARTMENTID
+-----------------------------------------------------------------------------------------------
+101        Dr M P Singh                Professor            mp.singh@gmail.com        157
+102        Mithilesh Kumar             Professor            mithilesh@gmail.com       157
+...
+ROLL_NO      STUDENT_NAME     GENDER   CONTACT_NUMBER   DEPARTMENT_ID  DATE_OF_B
+---------------------------------------------------------------------------------
+23157128007  Shalini Shreya   F        9874XXXXXX       157            12-MAY-05
+23157128021  Atisha Raj       F        9237XXXXXX       157            23-FEB-05
+...
+COURSEID  COURSENAME                       CREDITS  DEPARTMENTID  FACULTYID
+----------------------------------------------------------------------------
+621       Machine Learning                 4        157           523
+622       Computer Networks                4        157           523
+...
+ENROLLMENTID  SEMESTER  ROLL_NO      COURSEID  GRADE
+-----------------------------------------------------
+1201          5th       23157128007  105504    B+
+1202          5th       23157128001  119501    A
+...
+
+`
