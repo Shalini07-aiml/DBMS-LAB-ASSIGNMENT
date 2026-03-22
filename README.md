@@ -1,4 +1,4 @@
-DBMS Lab Assignment 4
+##DBMS Lab Assignment 4
 
 Title
 
@@ -40,7 +40,8 @@ Conclusion
 
 SQL data retrieval techniques are essential for analyzing and managing database information. This assignment provides practical understanding of how to display and manipulate query results without changing the actual stored data.
 
- README – DB Lab 5 (JOIN Queries)
+
+##DBMS  LAB 5 (JOIN Queries)
 
 Overview
 
