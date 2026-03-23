@@ -182,26 +182,26 @@ FROM Enrollment
 GROUP BY CourseID;
 Lab Work / Tasks Performed
 
-✔ Part A: Basic Aggregation
+Part A: Basic Aggregation
 Total number of students
 Total number of faculty members
 Maximum and minimum values
 
-✔ Part B: GROUP BY on Single Table
+Part B: GROUP BY on Single Table
 Students count department-wise
 Faculty count department-wise
 Courses count department-wise
 
-✔ Part C: GROUP BY with HAVING
+Part C: GROUP BY with HAVING
 Departments having more than 3 students
 Courses having more than 2 enrollments
 
-✔ Part D: GROUP BY with JOIN
+Part D: GROUP BY with JOIN
 Number of students enrolled in each course
 Department-wise student analysis
 Faculty-wise teaching analysis
 
-✔ Part E: Analytical Queries
+Part E: Analytical Queries
 Maximum grade in each course
 Department-wise total courses
 Semester-wise enrollment analysis
