@@ -123,3 +123,104 @@ This lab helps in understanding how to efficiently retrieve related data using J
 - Use aliases for better readability
 
 ---
+
+#DBMS Lab-6 Assignment
+
+ Objective
+ 
+The main objective of this project is to understand how to analyze and summarize data using SQL.
+This includes the use of aggregate functions, GROUP BY clause, and HAVING clause to extract meaningful insights from database tables.
+ Introduction
+In real-world databases, large amounts of data are stored. To make sense of this data, we use data aggregation techniques.
+SQL provides powerful tools like GROUP BY and HAVING to organize, filter, and analyze data efficiently.
+Concepts Used
+
+1. Aggregate Functions
+   
+Aggregate functions perform operations on multiple rows and return a single result.
+Function
+Description
+COUNT()
+Counts number of records
+SUM()
+Calculates total
+AVG()
+Calculates average
+MAX()
+Finds highest value
+MIN()
+Finds lowest value
+
+ 3. GROUP BY Clause
+
+GROUP BY is used to group rows that have the same values in specified columns.
+ Example:
+SELECT DepartmentID, COUNT(*) AS Total_Students
+FROM Students
+GROUP BY DepartmentID;
+
+5. GROUP BY with Multiple Columns
+Grouping can also be done using more than one column.
+Example:
+SELECT Semester, Grade, COUNT(*) AS Total
+FROM Students
+GROUP BY Semester, Grade;
+
+6. HAVING Clause
+HAVING is used to filter grouped results (works after GROUP BY).
+Example:
+SELECT DepartmentID, COUNT(*) AS Total
+FROM Students
+GROUP BY DepartmentID
+HAVING COUNT(*) > 2;
+
+ 7. GROUP BY with JOIN
+GROUP BY can be combined with JOIN to work on multiple tables.
+Example:
+SELECT CourseID, COUNT(StudentID) AS Enrolled_Students
+FROM Enrollment
+GROUP BY CourseID;
+Lab Work / Tasks Performed
+
+✔ Part A: Basic Aggregation
+Total number of students
+Total number of faculty members
+Maximum and minimum values
+
+✔ Part B: GROUP BY on Single Table
+Students count department-wise
+Faculty count department-wise
+Courses count department-wise
+
+✔ Part C: GROUP BY with HAVING
+Departments having more than 3 students
+Courses having more than 2 enrollments
+
+✔ Part D: GROUP BY with JOIN
+Number of students enrolled in each course
+Department-wise student analysis
+Faculty-wise teaching analysis
+
+✔ Part E: Analytical Queries
+Maximum grade in each course
+Department-wise total courses
+Semester-wise enrollment analysis
+
+ Key Observations
+ 
+GROUP BY organizes data into groups
+HAVING filters grouped data
+WHERE filters data before grouping
+Aggregate functions are essential for analysis
+
+Learning Outcome
+
+Gained understanding of SQL data aggregation
+Learned how to analyze real-world datasets
+Improved query writing and logical thinking
+Understood the importance of structured data analysis
+
+Conclusion
+ 
+This project demonstrates how SQL can be effectively used to manage and analyze large datasets.
+By using GROUP BY and HAVING, we can extract meaningful information and make better data-driven decisions.
