@@ -218,4 +218,4 @@ SQL> SELECT CourseID, COUNT(StudentID) AS Total_Students
 
 no rows selected
 
-SQL>
+
