@@ -1,16 +1,3 @@
-SQL*Plus: Release 21.0.0.0.0 - Production on Fri Mar 13 14:27:25 2026
-Version 21.3.0.0.0
-
-Copyright (c) 1982, 2021, Oracle.  All rights reserved.
-
-Enter user-name: system
-Enter password:
-Last Successful login time: Sun Mar 01 2026 09:46:29 +05:30
-
-Connected to:
-Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production
-Version 21.3.0.0.0
-
 SQL> SELECT COUNT(*) AS Total_Students
   2  FROM Student;
 
